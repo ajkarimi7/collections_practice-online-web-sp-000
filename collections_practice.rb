@@ -26,7 +26,8 @@ def reverse_array(array)
 end 
 
 def find_a(array)
-  array.find_all
+  array.find_all do |word|
+    
 end 
 
   
